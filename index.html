@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Image Test</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #0f0;
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .image-container {
+            margin-top: 20px;
+            border: 2px solid #0f0;
+            padding: 10px;
+            max-width: 800px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        h1 {
+            text-shadow: 0 0 10px #0f0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test Image Display</h1>
+    <div class="image-container">
+        <img src="test-image.jpg" alt="Test Image">
+    </div>
+</body>
+</html>
